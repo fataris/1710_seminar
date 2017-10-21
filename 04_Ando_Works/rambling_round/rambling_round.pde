@@ -8,7 +8,7 @@ void setup() {
 void draw() {
   //まずは前回の背景を半透明の四角で塗りつぶす
   stroke(255);
-  fill(255, 255, 255, 25);  //Red, Green, Blue, Alpha)
+  fill(255, 255, 255, 25);  //Red, Green, Blue, Alpha
   rect(0, 0, width, height);//軌道をだんだん薄くする
 
   x=random(-5, 5);
